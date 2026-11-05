@@ -8,7 +8,7 @@
 |---|---|---|
 | ISTD-100 工业级飞控（垂起固定翼机型） | STM32H743 + STM32F103 IOMCU 双处理器、三层叠板、三余度异构 IMU、双气压计；ArduPilot/ChibiOS 板级定义（hwdef、bootloader）、USB 吞吐与 ESD 处理；外壳、三防漆、BOM、生产测试；适航配套文档 | 2025 年量产交付 |
 | CAAC 飞控系列 | 基于 ArduPilot 的定制固件，覆盖多旋翼、直升机、抛投机；出厂参数和使用指导 | 已发货多家客户 |
-| FPV 飞控硬件设计 | STM32H743 主板加开关板，原理图和 PCB | |
+| FPV 飞控板级适配 | 基于 H7 Ultra（STM32H743）的 ArduPilot hwdef 和 bootloader 适配 | |
 | PE 管热熔焊接机主控 | 对标 Gator 的正向复刻：STM32H7 + ESP32，自研 4 层板，重构模拟供电（纹波 <10 mV）；RT-Thread + 事件驱动分层状态机承载"装夹 → 铣削 → 加热 → 熔接 → 冷却"人机协同流程；自研 bootloader/OTA、错误码体系、SD 日志、现场操作卡 | 2023 年验收，持续维护至 2026 年 |
 | 车载 VCU 平台 | NXP S32K344 + FS26 SBC，RTD 4.0 外设驱动，RT-Thread 移植，CAN / 车载以太网 / Bootloader；主讲配套的 S32K344 开发课程 | 整板成本核算、生产资料和测试流程，已量产 |
 | 五节三元锂 BMS | STM32F103 + BQ76920，RT-Thread nano；充放电与均衡、六类保护、SOC 估算与容量校准；检流电路 | 可用样机 |
