@@ -1,4 +1,4 @@
-# 李逍遥（李思成）· L-X-Yao
+# 李逍遥 · L-X-Yao
 
 嵌入式软硬件全栈工程师。飞控、工业控制、车载 ECU 三条线都从原理图做到量产交付，2022–2026 年在一家嵌入式产品公司主导 10 余个项目。
 
@@ -10,6 +10,7 @@
 |---|---|---|
 | [ai-embedded-platform](https://github.com/L-X-Yao/ai-embedded-platform) | 259 个零依赖 C99 嵌入式组件加验证流水线 | 看点不是数量，是怎么检验 AI 写的固件代码：60 项审计、覆盖率门禁、fuzz、ARM 交叉编译；README 写明只有 5 个组件上过真机，查出的缺陷全部公开 |
 | [argus](https://github.com/L-X-Yao/argus) | 浏览器端的 MAVLink 地面站 | Svelte 5 + FastAPI，WebSerial 浏览器直连 USB，任务规划 / 标定 / RTK / 多机，10 种语言，2500+ 测试；ArduPilot 经 SITL 和真飞控台架验证，未做飞行测试 |
+| [arduscope](https://github.com/L-X-Yao/arduscope) | ArduPilot .BIN 飞行日志诊断工具 | 把"飞得不好"翻译成"改哪个参数"：32 个分析器，每条判断注明出处（METHODIC 调参指南、ArduPilot wiki 或源码），参数建议可导出 .param；README 写明参数建议只在 SITL 里验证过、没上过真机 |
 
 ## 做过的东西
 
@@ -27,7 +28,7 @@
 
 - 软硬件一肩挑：原理图、多层 PCB、电源完整性、RTOS 固件、上位机到量产导入，不在软硬件之间做交接。
 - 交付纪律：发布包按 git 哈希归档并附校验和，开机横幅带版本，现场日志是判读设备行为的唯一依据。
-- 2026 年起用 AI 智能体做整块开发：需求、验收标准、验证和现场调试我做，代码由 AI 在我定的合约和门禁下写。上面两个仓库就是这么做出来的。
+- 2026 年起用 AI 智能体做整块开发：需求、验收标准、验证和现场调试我做，代码由 AI 在我定的合约和门禁下写。上面三个仓库就是这么做出来的。
 
 ## 技能
 
@@ -35,4 +36,4 @@ ArduPilot（hwdef、ChibiOS 板级移植、QuadPlane）、MAVLink v2、NTRIP/RTK
 
 ---
 
-Embedded hardware/firmware engineer: industrial flight controllers (ArduPilot, STM32H7), industrial machine control (RT-Thread), vehicle control units (S32K344). Since 2026 I build with AI agents under contracts and gates I define; the two repositories above are the result.
+Embedded hardware/firmware engineer: industrial flight controllers (ArduPilot, STM32H7), industrial machine control (RT-Thread), vehicle control units (S32K344). Since 2026 I build with AI agents under contracts and gates I define; the three repositories above are the result.
