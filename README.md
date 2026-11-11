@@ -36,4 +36,4 @@ ArduPilot（hwdef、ChibiOS 板级移植、QuadPlane）、MAVLink v2、NTRIP/RTK
 
 ---
 
-Embedded hardware/firmware engineer: industrial flight controllers (ArduPilot, STM32H7), industrial machine control (RT-Thread), vehicle control unit dev boards (S32K344). Since 2026 I build with AI agents under contracts and gates I define; the three repositories above are the result.
+Embedded hardware and firmware engineer. I take industrial flight controllers (ArduPilot, STM32H7), industrial machine control (RT-Thread) and vehicle control unit dev boards (S32K344) from schematic to batch delivery. From 2022 to 2026 I was a technical partner at an embedded products company, leading 10+ projects. Since 2026 I build with AI agents: I own requirements, acceptance criteria, verification and field debugging, the agents write the code to my specs, and nothing merges until it passes the gates. The three repositories above were built this way.
